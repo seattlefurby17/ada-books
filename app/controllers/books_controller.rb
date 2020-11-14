@@ -1,6 +1,7 @@
 
 class BooksController < ApplicationController
-  def index
+  #Controller Actions are always methods!
+  def index #indext means list all
     @books = Book.all
   end
 
